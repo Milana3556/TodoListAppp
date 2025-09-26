@@ -1,7 +1,7 @@
 ﻿
 using TodoListAppp.Managers;
 
-namespace TodoListApp
+namespace TodoListAppp
 {
     class Program
     {
