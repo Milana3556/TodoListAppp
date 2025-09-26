@@ -1,2 +1,22 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using TodoListAppp.Managers;
+
+namespace TodoListApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to the To-Do List Application!");
+
+            // Создаем экземпляр менеджера списка дел
+            var todoManager = new TodoListManager();
+
+            // Теперь вызываем методы через экземпляр менеджера
+            todoManager.DisplayTodoList();
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
