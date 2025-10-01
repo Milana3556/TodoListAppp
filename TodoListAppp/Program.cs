@@ -7,7 +7,11 @@ namespace TodoListAppp
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.WriteLine("Your Personal To-Do Manager");
+=======
+            Console.WriteLine("Welcome to the Enhanced To - Do List!");
+>>>>>>> feature/add-task
 
             // Создаем экземпляр менеджера списка дел
             var todoManager = new TodoListManager();
